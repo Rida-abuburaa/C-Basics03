@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Drawing;
+using System.Security.Cryptography;
 using System.Threading.Channels;
 
 namespace Assiment2
@@ -15,7 +16,15 @@ namespace Assiment2
             Console.WriteLine(title);
             Console.WriteLine(upperTitle);*/
 
-            #endregion 
+            #endregion
+
+            #region Question2
+            //Declare two separate string variables, both set to the literal "Clean Code". Use ReferenceEquals() to check if they point to the same object in memory.
+          /*  string cl = "Clean Code";
+            string cle = "Clean Code";
+            Console.WriteLine(ReferenceEquals(cl,cle));*/
+            #endregion
+
         }
     }
 }
