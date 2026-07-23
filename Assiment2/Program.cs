@@ -167,15 +167,29 @@ namespace Assiment2
 
             #region Qustion16
             //Using the same books array, loop through it and print each title, but stop completely (break) once  you reach "Refactoring".
-           /* string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            /* string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+             foreach (string book in books)
+             { 
+                 Console.WriteLine(book);
+                 if (book == "Refactoring")
+                 {
+                     break;
+                 }
+             }*/
+            #endregion
+
+            #region Qouestion17
+            //Using the same books array, print every title except "The Pragmatic Programmer" (skip it with continue, don't stop the loop). 
+            /*string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             foreach (string book in books)
-            { 
+            {
+               
+                if (book == "The Pragmatic Programmer") continue;
                 Console.WriteLine(book);
-                if (book == "Refactoring")
-                {
-                    break;
-                }
+
             }*/
+
+
             #endregion
         }
     }
