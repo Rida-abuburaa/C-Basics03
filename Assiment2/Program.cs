@@ -28,15 +28,22 @@ namespace Assiment2
 
             #region Question3
             // Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object.Print the final result.
-           /* StringBuilder s1 = new StringBuilder();
-            s1.Append("Book List");
-            s1.Append(" - Updated");
-            Console.WriteLine(s1); */
+             /*StringBuilder s1 = new StringBuilder();
+             s1.Append("Book List");
+             s1.Append(" - Updated");
+             Console.WriteLine(s1);*/
 
 
 
 
+            #endregion
+
+            #region Question4
+            //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".  Print the result.
+           /* s1.Replace("Book List" , "Library");
+            Console.WriteLine(s1);*/
             #endregion 
+
         }
     }
 }
