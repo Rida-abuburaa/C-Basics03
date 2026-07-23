@@ -140,6 +140,20 @@ namespace Assiment2
              }*/
 
             #endregion
+
+            #region  Question14
+            //Write a do-while loop that prints "Checking book..." exactly 3 times. 
+          /*  string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int i = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                i++;
+            }
+            while (i < books.Length);*/
+
+
+            #endregion
         }
     }
 }
