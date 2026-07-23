@@ -143,17 +143,29 @@ namespace Assiment2
 
             #region  Question14
             //Write a do-while loop that prints "Checking book..." exactly 3 times. 
-          /*  string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            int i = 0;
-            do
-            {
-                Console.WriteLine("Checking book...");
-                i++;
-            }
-            while (i < books.Length);*/
+            /*  string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+              int i = 0;
+              do
+              {
+                  Console.WriteLine("Checking book...");
+                  i++;
+              }
+              while (i < books.Length);*/
 
 
             #endregion
+
+            #region Qustion15
+            //Using the same books array, use a foreach loop to print every book title. 
+           /* string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }*/
+            #endregion
+
+
+
         }
     }
 }
