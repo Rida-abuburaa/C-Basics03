@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Security.Cryptography;
+using System.Text;
 using System.Threading.Channels;
 
 namespace Assiment2
@@ -20,11 +21,22 @@ namespace Assiment2
 
             #region Question2
             //Declare two separate string variables, both set to the literal "Clean Code". Use ReferenceEquals() to check if they point to the same object in memory.
-          /*  string cl = "Clean Code";
-            string cle = "Clean Code";
-            Console.WriteLine(ReferenceEquals(cl,cle));*/
+            /*  string cl = "Clean Code";
+              string cle = "Clean Code";
+              Console.WriteLine(ReferenceEquals(cl,cle));*/
             #endregion
 
+            #region Question3
+            // Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object.Print the final result.
+           /* StringBuilder s1 = new StringBuilder();
+            s1.Append("Book List");
+            s1.Append(" - Updated");
+            Console.WriteLine(s1); */
+
+
+
+
+            #endregion 
         }
     }
 }
