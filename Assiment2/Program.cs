@@ -61,12 +61,22 @@ namespace Assiment2
 
             #region Question7
             //Build the same sentence again, but using string.Format(). 
-           /* string title = "Clean Code ";
-            int pages = 464;
-            Console.WriteLine("Book:{0}, Pages:{1}", title , pages);*/
-            #endregion 
+            /* string title = "Clean Code ";
+             int pages = 464;
+             Console.WriteLine("Book:{0}, Pages:{1}", title , pages);*/
+            #endregion
 
-
+            #region Question8
+            //Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than  300, otherwise prints "Short Book".
+           /* int pages = 464;
+            if (pages >300)
+            {
+                Console.WriteLine("Long Book");
+            }else
+            {
+                Console.WriteLine("Short Book");
+            }*/
+            #endregion
         }
     }
 }
