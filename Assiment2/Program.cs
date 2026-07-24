@@ -200,27 +200,66 @@ namespace Assiment2
             /* string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
              PrintFirstBook(books);*/
             #endregion
+
+            #region Session Task
+
+            /*   Console.Write("Enter you Name: ");
+               string Name = Console.ReadLine();
+               Console.Write(" Enter you Age: ");
+               int.TryParse (Console.ReadLine(),out int Age);
+               Console.Write("Enter your firstGrade:");
+               double.TryParse(Console.ReadLine(), out double  first);
+               Console.Write("Enter your SecondGrade:");
+               double.TryParse(Console.ReadLine(), out double Second);
+               Console.Write("Enter your thirdGrade:");
+               double.TryParse(Console.ReadLine(), out double third);
+
+               double TotalGrade = first + Second + third;
+               double AvargeGrade = TotalGrade/3;
+               Console.WriteLine($"Student Name: {Name}");
+               if (Age >= 18)
+               {
+                   Console.WriteLine($"Age: {Age} (Adult)");
+               }
+               else
+               {
+                   Console.WriteLine($"Age: {Age} (Minor)");
+               }
+               Console.WriteLine ($"TotalGrade: {TotalGrade}");
+               Console.WriteLine($"Average: {AvargeGrade}");
+               if (AvargeGrade >=50 )
+               {
+                   Console.WriteLine("Status : Hair grade");
+               }
+               else
+               {
+                   Console.WriteLine("Status : Faild");
+               }*/
+
+                #endregion 
+
+           }
+
+
+           #region mymethod
+           /*  static void PrintFirstBook(string[] books)
+             {
+
+
+                     if (books.Length == 0)
+                     {
+                         return;
+                     }
+                     else
+                     {
+                         Console.WriteLine(books[0]);
+                     }
+
+             }*/
+            #endregion
+
         }
-        
-      #region mymethod
-        static void PrintFirstBook(string[] books)
-        {
-
-            
-                if (books.Length == 0)
-                {
-                    return;
-                }
-                else
-                {
-                    Console.WriteLine(books[0]);
-                }
-
-        }
-        #endregion 
-
     }
-}
 
 
 
